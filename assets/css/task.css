@@ -1,0 +1,29 @@
+.drop-area {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: blue;
+    transition: 0.3s;
+}
+
+.drop-area:hover {
+    background-color: aqua;
+}
+
+.drop-area:hover i {
+    color: red;
+}
+
+.drop-area i {
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+#image {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 299px;
+    width: 600px;
+}

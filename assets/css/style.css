@@ -1,0 +1,36 @@
+img{
+    width: 150px;
+    height: 100px;
+}
+
+.icon{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.icon i{
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    /* visibility: hidden;
+    display: none;
+    opacity: 0; */
+    background-color: teal;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: magenta;
+}
